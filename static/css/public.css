@@ -64,3 +64,7 @@ li.union-member {
     text-align: center;
     width: 100%;
 }
+
+.player {
+    margin-top: -40px;
+}
