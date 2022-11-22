@@ -68,3 +68,7 @@ li.union-member {
 .member {
     margin-top: -40px;
 }
+
+.hr_line {
+    FILTER: alpha(opacity=100,finishopacity=0,style=3);
+}
