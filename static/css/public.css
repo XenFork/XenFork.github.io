@@ -72,3 +72,30 @@ ul.union-member-list {
     border: none;
     height: 3px;
 }
+/*上拉框*/
+.dropup {
+    position: relative;
+    display: inline-block;
+}
+.dropup-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    margin-top: -330px;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+}
+.dropup:hover .dropup-content {
+    display: block;
+}
+
+.dropup a {
+    text-decoration:none;
+}
+
+#nav {
+    width: 760px;
+    height: 30px;
+    margin: 0 auto;
+}
