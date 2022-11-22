@@ -66,3 +66,9 @@ ul.union-member-list {
 .article-body {
     margin: initial;
 }
+
+.article-footer-separate {
+    background-image: linear-gradient(to right, rgba(119, 209, 124, 0.5), rgba(119, 209, 124, 1));
+    border: none;
+    height: 3px;
+}
