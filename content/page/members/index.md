@@ -31,7 +31,7 @@ menu:
 comments: false
 ---
 
-以下成员均按首字母排序。
+以下成员均按首字母排序。文章作者请见[此处](/authors/)。
 
 ## 组织
 
@@ -44,7 +44,7 @@ comments: false
 - [AR_Mr_Amzing](https://github.com/ARMrAmzing)
 - [baka4n](https://github.com/baka4n)
 - [crazy_piggy_](https://github.com/crazy-piggy)
-- [squid233](https://github.com/squid233)：[文章](/authors/squid233)
+- [squid233](https://github.com/squid233)
 
 ## 普通成员
 
