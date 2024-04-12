@@ -1,0 +1,151 @@
+# Pages placed under these sections will be shown on homepage and archive page.
+mainSections = ["post"]
+# Output page's full content in RSS.
+rssFullContent = true
+favicon = "/favicon.png"
+
+[footer]
+since = 2022
+customText = ""
+
+[dateFormat]
+published = "2006-01-02"
+lastUpdated = "2006-01-02 15:04 MST"
+
+[sidebar]
+#emoji = "🍴"
+subtitle = "A cooperating developer organization composed of Chinese"
+
+[sidebar.avatar]
+enabled = true
+local = true
+src = "img/avatar.png"
+
+[article]
+math = false
+readingTime = true
+
+[article.license]
+enabled = true
+default = "Licensed under CC BY-NC-SA 4.0"
+
+## Widgets
+[[widgets.homepage]]
+type = "search"
+
+[[widgets.homepage]]
+type = "archives"
+
+[widgets.homepage.params]
+limit = 5
+
+[[widgets.homepage]]
+type = "categories"
+
+[widgets.homepage.params]
+limit = 10
+
+[[widgets.homepage]]
+type = "tag-cloud"
+
+[widgets.homepage.params]
+limit = 10
+
+[[widgets.page]]
+type = "toc"
+
+[opengraph.twitter]
+site = ""
+card = "summary_large_image"
+
+[defaultImage.opengraph]
+enabled = false
+local = false
+src = ""
+
+[colorScheme]
+toggle = true
+default = "auto"
+
+[imageProcessing.cover]
+enabled = true
+
+[imageProcessing.content]
+enabled = true
+
+## Comments
+[comments]
+enabled = true
+provider = "giscus"
+
+[comments.disqusjs]
+shortname = ""
+apiUrl = ""
+apiKey = ""
+admin = ""
+adminLabel = ""
+
+[comments.utterances]
+repo = ""
+issueTerm = "pathname"
+label = ""
+
+[comments.remark42]
+host = ""
+site = ""
+locale = ""
+
+[comments.vssue]
+platform = ""
+owner = ""
+repo = ""
+clientId = ""
+clientSecret = ""
+autoCreateIssue = false
+
+[comments.waline]
+serverURL = ""
+lang = ""
+visitor = ""
+avatar = ""
+emoji = ["https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo"]
+requiredMeta = ["name", "email", "url"]
+placeholder = ""
+
+[comments.waline.locale]
+admin = "Admin"
+
+[comments.twikoo]
+envId = ""
+region = ""
+path = ""
+lang = ""
+
+[comments.cactus]
+defaultHomeserverUrl = "https://matrix.cactus.chat:8448"
+serverName = "cactus.chat"
+siteName = ""
+
+[comments.giscus]
+repo = "XenFork/XenFork.github.io"
+repoID = "R_kgDOH0SiFA"
+category = "Announcements"
+categoryID = "DIC_kwDOH0SiFM4CTjX-"
+mapping = "pathname"
+lightTheme = "light"
+darkTheme = "dark"
+reactionsEnabled = 1
+emitMetadata = 0
+inputPosition = "top"
+lang = "zh-CN"
+
+[comments.gitalk]
+owner = ""
+admin = ""
+repo = ""
+clientID = ""
+clientSecret = ""
+
+[comments.cusdis]
+host = ""
+id = ""
